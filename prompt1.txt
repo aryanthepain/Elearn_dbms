@@ -1,0 +1,1 @@
+I am removing the featured courses section in index.php
