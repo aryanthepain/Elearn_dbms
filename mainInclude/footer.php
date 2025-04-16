@@ -24,7 +24,6 @@
           <div class="form-group">
             <i class="fas fa-envelope"></i><label for="stuemail" class="pl-2 font-weight-bold">E-mail</label>
             <input type="email" class="form-control" id="stuemail" name="stuname" placeholder="Email">
-            <small class="form-text">we'll never share your email with anyone else</small>
           </div>
           <div class="form-group">
             <i class="fas fa-key"></i><label for="password" class="pl-2 font-weight-bold">New Password</label>
