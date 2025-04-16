@@ -4,12 +4,10 @@
   ?>
   <!-- end of navigation -->
 
-  <!-- start video background -->
+  <!-- start background -->
   <div class="container-fluid remove-vid-marg">
     <div class="vid-parent">
-      <!-- playsinline autoplay muted loop   -->
-      <video playsinline autoplay muted loop>
-        <source src="video/demo (1).mp4">
+      <video>
       </video>
       <div class="vid-overlay"></div>
     </div>
@@ -19,7 +17,7 @@
       <a href="" class="btn btn-primary mt-2" data-toggle="modal" data-target="#exampleModal">Get Started</a>
     </div>
   </div>
-  <!-- end video background -->
+  <!-- end background -->
 
   <!-- Start of text banner -->
   <div class="container-fluid bg-info txt-banner">
@@ -56,8 +54,8 @@
               doloremque placeat.</p>
           </div>
           <div class="card-footer">
-            <p class="card-text d-inline">Price: <small><del>& #8377 200</del></small>
-              <span class="font-weight-bolder">&#8377 200</span>
+            <p class="card-text d-inline">Price: <small><del>3999</del></small>
+              <span class="font-weight-bolder">2999</span>
             </p>
             <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">Enroll</a>
           </div>
@@ -72,8 +70,8 @@
               doloremque placeat.</p>
           </div>
           <div class="card-footer">
-            <p class="card-text d-inline">Price: <small><del>& #8377 200</del></small>
-              <span class="font-weight-bolder">&#8377 200</span>
+            <p class="card-text d-inline">Price: <small><del>3999</del></small>
+              <span class="font-weight-bolder">2999</span>
             </p>
             <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">Enroll</a>
           </div>
@@ -88,8 +86,8 @@
               doloremque placeat.</p>
           </div>
           <div class="card-footer">
-            <p class="card-text d-inline">Price: <small><del>& #8377 200</del></small>
-              <span class="font-weight-bolder">&#8377 200</span>
+            <p class="card-text d-inline">Price: <small><del>3999</del></small>
+              <span class="font-weight-bolder">2999</span>
             </p>
             <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">Enroll</a>
           </div>
@@ -109,8 +107,8 @@
               doloremque placeat.</p>
           </div>
           <div class="card-footer">
-            <p class="card-text d-inline">Price: <small><del>& #8377 200</del></small>
-              <span class="font-weight-bolder">&#8377 200</span>
+            <p class="card-text d-inline">Price: <small><del>3999</del></small>
+              <span class="font-weight-bolder">2999</span>
             </p>
             <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">Enroll</a>
           </div>
@@ -125,8 +123,8 @@
               doloremque placeat.</p>
           </div>
           <div class="card-footer">
-            <p class="card-text d-inline">Price: <small><del>& #8377 200</del></small>
-              <span class="font-weight-bolder">&#8377 200</span>
+            <p class="card-text d-inline">Price: <small><del>3999</del></small>
+              <span class="font-weight-bolder">2999</span>
             </p>
             <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">Enroll</a>
           </div>
@@ -141,8 +139,8 @@
               doloremque placeat.</p>
           </div>
           <div class="card-footer">
-            <p class="card-text d-inline">Price: <small><del>& #8377 200</del></small>
-              <span class="font-weight-bolder">&#8377 200</span>
+            <p class="card-text d-inline">Price: <small><del>3999</del></small>
+              <span class="font-weight-bolder">2999</span>
             </p>
             <a href="#" class="btn btn-primary text-white font-weight-bolder float-right">Enroll</a>
           </div>
@@ -157,61 +155,8 @@
   </div>
   <!-- End of Popular Course -->
 
-  <!-- Start of contact page -->
-  <?php
-    include('./contact.php');
-  ?>
-  <!-- End of contact page -->
-
-  <!--Start of  Follow Social Media -->
-  <div class="container-fluid bg-info">
-    <div class="row text-white text-center p-1">
-      <div class="col-sm">
-        <a href="#" class="text-white social-hover"><i class="fab fa-facebook-f"></i>Facebook</a>
-      </div>
-      <div class="col-sm">
-        <a href="#" class="text-white social-hover"><i class="fab fa-twitter"></i>Twitter</a>
-      </div>
-      <div class="col-sm">
-        <a href="#" class="text-white social-hover"><i class="fab fa-whatsapp"></i>What's App</a>
-      </div>
-      <div class="col-sm">
-        <a href="#" class="text-white social-hover"><i class="fab fa-instagram"></i>Instagram</a>
-      </div>
-    </div>
-  </div>
-  <!--End of Follow Social Media -->
-
-  <!-- Start fo About us section -->
-  <div class="container-fluid p-4 bg-dark text-white">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-sm">
-          <h5>About Us</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quia! Velit similique ad architecto
-            eaque!</p>
-        </div>
-
-        <div class="col-sm">
-          <h5>Category</h5>
-          <a href="#" class="text-white">Web Development</a><br>
-          <a href="#" class="text-white">Web Design</a><br>
-          <a href="#" class="text-white">iOS Development</a><br>
-          <a href="#" class="text-white">Android App Development</a><br>
-          <a href="#" class="text-white">Data Analysis</a><br>
-        </div>
-
-        <div class="col-sm">
-          <h5>Contact Us</h5>
-          <p>AeyBeri Tech.<br>Near Washington DC <br> USA <br>Ph.0184574</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End fo About us section -->
-
   <!-- start of footer -->
   <?php
-    include('./mainInclude/footer.php');
+  include('./mainInclude/footer.php');
   ?>
   <!-- end of footer -->
