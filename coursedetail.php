@@ -1,13 +1,13 @@
 <!-- Start Of Header -->
 <?php
-    include('./mainInclude/header.php');
+include('./mainInclude/header.php');
 ?>
 <!-- End Of Header -->
 
 <!-- start of course banner -->
 <div class="container-fluid bg-dark">
     <div class="row">
-        <img src="./images/cour.jpg" alt="course" style="height: 500px; width: 100%; object-fit:cover; box-shadow: 10px;"/>
+        <img src="./images/cour.jpg" alt="course" style="height: 500px; width: 100%; object-fit:cover; box-shadow: 10px;" />
     </div>
 </div>
 <!-- end of course banner -->
@@ -31,29 +31,29 @@
             </div>
         </div>
     </div>
-        <div class="container">
-            <div class="row">
-                <table class="table table-bordered table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Lesson No: </th>
-                            <th scope="col">Lesson Name: </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Introduction</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+    <div class="container">
+        <div class="row">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Lesson No: </th>
+                        <th scope="col">Lesson Name: </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Introduction</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+    </div>
 </div>
 <!-- End of Course details -->
 
 <!-- start of footer -->
 <?php
-    include('./mainInclude/footer.php');
+include('./mainInclude/footer.php');
 ?>
-<!--
+<!-- end of footer -->
