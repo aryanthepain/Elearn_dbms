@@ -3,13 +3,23 @@ require_once('../dbconnection.php');
 
 if (isset($_POST['stusignup']) && isset($_POST['stuname']) && isset($_POST['stuemail']) && isset($_POST['password'])) {
 
-    $stuname = $_POST['stuname'];
-    $stuemail = $_POST['stuemail'];
+    $stuname = trim($_POST['stuname']);
+    $stuemail = trim($_POST['stuemail']);
     $password = $_POST['password'];
 
-    $sql = "INSERT INTO student(stu_name, stu_email, stu_pass) VALUES ($stuname, $stuemail, $password)";
+    // Prepare the SQL query using placeholders
+    $sql = "INSERT INTO student (stu_name, stu_email, stu_pass) VALUES (:stuname, :stuemail, :stu_pass)";
+    $stmt = $pdo->prepare($sql);
 
-    if ($conn->query($sql) == TRUE) {
+    // Bind the parameters and execute the query
+    $result = $stmt->execute([
+        ':stuname' => $stuname,
+        ':stuemail' => $stuemail,
+        ':stu_pass' => $hashedPassword
+    ]);
+
+    // Return JSON response based on the result
+    if ($result) {
         echo json_encode('ok');
     } else {
         echo json_encode('failed');
