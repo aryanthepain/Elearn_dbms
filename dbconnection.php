@@ -1,12 +1,13 @@
 <?php
-$db_host = 'localhost';
-$db_user = 'root';
-$db_password = '';
-$db_name = 'e_learning';
+// connect to the database server
 
-$conn = new mysqli($db_host, $db_user, $db_password, $db_name);
+$dsn = "mysql:host=localhost;dbname=lab8_elearn";
+$dbusername = "root";
+$dbpassword = "";
 
-if($conn->connect_error){
-    die('connection_failed');
+try {
+    $pdo = new PDO($dsn, $dbusername, $dbpassword);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
 }
-?>
