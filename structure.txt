@@ -1,0 +1,41 @@
+/online_learning_project
+│
+├── index.php
+├── login.php
+├── signup.php
+├── admin-login.php
+├── courses.php
+├── course-detail.php
+├── add-course.php
+├── exam.php
+├── certificate.php
+├── discussion.php
+├── announcements.php
+├── suggestions.php
+├── learningpath.php
+│
+├── includes
+│   ├── header.php
+│   └── footer.php
+│
+├── db
+│   ├── dbconnection.php
+│   ├── student-signup.php
+│   ├── student-login.php
+│   ├── instructor-signup.php
+│   ├── instructor-login.php
+│   ├── admin-login.php
+│   ├── add-course.php
+│   ├── submit-exam.php
+│   ├── submit-forum.php
+│   ├── submit-suggestion.php
+│   └── submit-learning-path.php
+│
+├── assets
+│   └── css
+│       └── style.css
+│
+└── sql
+    ├── create.sql
+    ├── insert.sql
+    └── query.sql
